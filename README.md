@@ -1,94 +1,50 @@
-Assignment: Build an E-commerce Website Clone of PrintMine.in
+# PrintMine Clone
 
-Company: Mobishaala Edutech Pvt. Ltd.
+This is a full-stack e-commerce website clone of [PrintMine.in](https://printmine.in) built using:
 
-Objective
+- **Frontend:** React.js
+- **Backend:** Node.js + Express
+- **Database:** PostgreSQL/MySQL
+- **Authentication:** JWT-based authentication
+- **Features:**
+  - User login & authentication
+  - Product management (CRUD)
+  - Shopping cart & order processing
+  - Responsive design
+  - Admin panel (optional)
 
-The goal of this assignment is to assess your web development skills by building a clone of PrintMine in or https://www.uolo.com/, an e-commerce platform for customized printing products. You will develop a full-stack web application with core functionalities similar to the original website.
+## 🚀 Getting Started
 
-Requirements
+### 1️⃣ Clone the Repository
 
-1. Frontend (User Interface)
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+2️⃣ Install Dependencies
+For the frontend:
 
-Tech Stack: React.js (preferred)/Next.js/Vue.js
+cd printmine-frontend
+npm install
+For the backend:
 
-Features:
+cd ../printmine-backend
+npm install
+3️⃣ Setup Environment Variables
+Create a .env file in the printmine-backend folder:
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret_key
+4️⃣ Run the Project
+Start the backend:
 
-Home page showcasing featured products and categories
+cd printmine-backend
+npm run dev
+Start the frontend:
+cd ../printmine-frontend
+npm start
+📜 License
+This project is for educational purposes.
 
-Product listing page with filtering and sorting options
 
-Product details page with Image preview, customization options (if applicable), and an "Add to Cart button
 
-Shopping cart page showing selected products with quantity modification and removal options
 
-Checkout page with address, payment method selection, and order summary 
-User authentication (Signup/Login) via email and password
 
-2. Backend (API & Database)
-
-Tech Stack: Node.js with Express/Django/FastAPI/Spring Boot
-
-Database: MongoDB/PostgreSQL/MYSQL
-
-Features:
-
-User authentication (JWT-based login/logout)
-
-Product management (CRUD operations for adding/updating products)
-
-Shopping cart management (Add/update/remove items)
-
-Order processing (Place an order, track order status)
-
-Payment integration (Optional, mock payment gateway like Razorpay/Stripe integration) 
-
-3.. Deployment
-
-Frontend Hosting: Vercel/Netlify / AWS S3 CloudFront
-
-Backend Hosting: AWS EC2/Heroku / Render
-
-Database: MongoDB Atlas / AWS RDS
-
-4. Additional Features (Bonus)
-
-Implement product search functionality
-
-Add user reviews & ratings
-
-Responsive design for mobile compatibility
-
-Admin panel for product and order management
-
-Submission Guidelines
-
-Source Code: Upload to a public GitHub repository
-
-Demo: Deploy the project and provide a working URL
-
-Documentation: A README file with setup instructions and features over view 
-
-Deadline:
-
-Evaluation Criteria
-
-1. Code Quality & Best Practices
-
-2. UI/UX Design & Responsiveness
-
-3. Functionality & Features Coverage
-
-4. API Structure & Database Design
-
-5. Deployment & Documentation
-
-You can use these 2 links
-
-1:-https://printmine in
-
-2:-https://www.ugio.com/
-
-Shortlisted candidates will be called for a final technical discussion.
-
-Best of luck!# PrintMine-Clone
